@@ -1,0 +1,18 @@
+{% extends "contacts/base.html" %}
+
+{% block content %}
+
+<div class="form-block">
+    <h2>Пошук по назві</h2>
+    <form action="{% url 'notes:search_by_name' %}" method="get">
+        <div>
+            <label class="form-label" for="search_name">
+                <p>Введіть назву:</p> 
+                {{form.search_name}}
+            </label>
+        </div>
+        
+        <input class="btn" type="submit" value="Шукати">
+    </form>
+</div>
+{% endblock %}

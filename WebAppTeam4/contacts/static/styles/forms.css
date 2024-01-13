@@ -1,0 +1,65 @@
+.form-block {
+    margin: 5% 35%;
+    padding: 20px;
+    background-color: var(--main-bg-color);
+    border-radius: var(--bs-border-radius)!important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    width: 355px;
+  }
+
+  .form-block h2 {
+    text-align: center;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ced4da;
+  }
+  
+  .form-control {
+    width: 310px; 
+  }
+  
+  label {
+    padding: 0px 0px 16px 0px;
+  }
+
+  .form-block {
+    margin-bottom: 0px;
+  }
+
+  .form-label select {
+    border: 1px solid #ced4da;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-top: 6px;
+    min-width: 90px;
+    cursor: pointer;
+  }
+
+  .form-label select:focus-visible {
+    border: none;
+  }
+
+  .form-label input {
+    border: 1px solid #ced4da;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-top: 6px;
+    min-width: 80px;
+  }
+
+  .d-flex input {
+    padding: 12px;
+    height: 58px;
+    margin: 6px 6px 6px 16px;
+  }
+
+  .search-form {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-top: 6px;
+    width: 250px;
+    cursor: pointer;
+  }
